@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p> This is the wireframe for <a href="https://ubcuas.com">UAS</a> G-COM Lite. It is a work in progress</p>
 	</footer>
 </div>
 

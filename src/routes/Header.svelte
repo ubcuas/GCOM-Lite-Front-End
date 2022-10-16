@@ -1,12 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	import logo from '$lib/images/uaslogo.png';
+	
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
+		<a href= "https://www.ubcuas.com/">
 			<img src={logo} alt="SvelteKit" />
 		</a>
 	</div>
@@ -16,26 +16,20 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}>
-				<a href="/">Home</a>
+			<li class:active={$page.url.pathname === '/home'}>
+				<a href="/home">Home</a>
 			</li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a href="/about">About</a>
+			<li class:active={$page.url.pathname === '/map'}>
+				<a href="/about">Map</a>
 			</li>
-			<li class:active={$page.url.pathname.startsWith('/sverdle')}>
-				<a href="/sverdle">Sverdle</a>
-			</li>
+			
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav>
 
-	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div>
+	
 </header>
 
 <style>
