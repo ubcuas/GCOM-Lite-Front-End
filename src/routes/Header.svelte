@@ -7,7 +7,7 @@
 <header>
 	<div class="corner">
 		<a href= "https://www.ubcuas.com/">
-			<img src={logo} alt="SvelteKit" />
+			<img src={logo} alt="UAS Website" />
 		</a>
 	</div>
 
