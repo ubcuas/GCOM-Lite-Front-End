@@ -53,8 +53,8 @@
             
         }
         reader {
-            width: 50%;
-            min-height: 400px;
+            width: 350px;
+            min-height: 250px;
             background-color: black;
            
         }
@@ -64,13 +64,14 @@
           height: 90px;
           border-radius: 50px;
           cursor: pointer;
-          font-size: 40px;
+          font-size: 20px;
           text-transform: uppercase;
           Letter-spacing: 10px;
           font-weight: bold;
           box-shadow: 0 8px 10px rgba(0,0,0,0.1);
           transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
           margin-bottom: 2rem;
+        
         }
         .btn:hover {
           background-color: #2da0dc;
