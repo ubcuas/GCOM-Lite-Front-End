@@ -2,6 +2,10 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/uaslogo.png';
 	
+	function handleClick() {
+		setTimeout(() => {
+        document.location.reload()}, 10);
+	}
 </script>
 
 <header>
@@ -20,7 +24,8 @@
 				<a href="/">Home</a>
 			</li>
 			<li class:active={$page.url.pathname === '/map'}>
-				<a href="/map">Map</a>
+				<a href="/map"on:click={handleClick}
+				>Map</a>
 			</li>
 			
 		</ul>

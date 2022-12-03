@@ -5,11 +5,11 @@
 <script>
 
 let mockdata = {
-    "velocity": 22.2,
+    "velocity": 10,
     "longitude": 49.2606,
     "latitude":  -123.2460,
-    "altitude": 28.1111,
-    "heading": 11.2
+    "altitude": 30.2111,
+    "heading": 270
 }
 
 let velocity = mockdata.velocity;
@@ -17,7 +17,8 @@ let longitude = mockdata.longitude;
 let latitude = mockdata.latitude;
 let heading = mockdata.heading;
 let altitude = mockdata.altitude;
-	
+
+
 </script>
 <!---------------->
 <div class="metrics container">

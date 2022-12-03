@@ -11,7 +11,9 @@ import Waypoints from "./waypoints.svelte";
     </header>
     <div class="container m-0 p-0">
         <div class="row">
-            <div class="col"><Metrics/></div>
+            <div class="col">
+                <Metrics/>
+            </div>
             <div class="col"><Aerialview/></div>
         </div>
         <div class="row">
