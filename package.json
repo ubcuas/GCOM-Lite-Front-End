@@ -32,7 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@mdi/js": "^7.0.96",
+		"@mdi/js": "^7.1.96",
 		"html5-qrcode": "^2.3.3",
 		"node-sass": "^7.0.3",
 		"svelte-materialify": "^0.3.11"
