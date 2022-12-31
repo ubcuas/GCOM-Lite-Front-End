@@ -33,7 +33,7 @@
 	"type": "module",
 	"dependencies": {
 		"@mdi/js": "^7.0.96",
-		"html5-qrcode": "^2.3.3",
+		"html5-qrcode": "^2.3.4",
 		"node-sass": "^7.0.3",
 		"svelte-materialify": "^0.3.11"
 	}
