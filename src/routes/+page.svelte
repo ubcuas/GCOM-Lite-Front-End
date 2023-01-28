@@ -62,7 +62,7 @@
       cursor: pointer;
       font-size: 40px;
       text-transform: uppercase;
-      Letter-spacing: 10px;
+      letter-spacing: 10px;
       font-weight: bold;
       box-shadow: 0 8px 10px rgba(0,0,0,0.1);
       transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
