@@ -1,35 +1,33 @@
 <script>
-import Mapnav from "./mapnav.svelte";
-import Aerialview from "./aerialview.svelte";
-import Metrics from "./metrics.svelte";
-import Waypoints from "./waypoints.svelte";
+    import Mapnav from './mapnav.svelte';
+    import Aerialview from './aerialview.svelte';
+    import Metrics from './metrics.svelte';
+    import Waypoints from './waypoints.svelte';
 </script>
+
 <!---------------->
 <body>
     <header>
-        <Mapnav/>
+        <Mapnav />
     </header>
     <div class="container m-0 p-0">
         <div class="row">
             <div class="col">
-                <Metrics/>
+                <Metrics />
             </div>
-            <div class="col"><Aerialview/></div>
+            <div class="col"><Aerialview /></div>
         </div>
         <div class="row">
             <div class="col">
-                <Waypoints/>
+                <Waypoints />
             </div>
         </div>
     </div>
-
 </body>
+
 <!---------------->
-
 <style>
-
-    .container{
+    .container {
         min-width: 100%;
     }
-    
 </style>
