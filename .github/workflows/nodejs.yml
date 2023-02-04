@@ -19,6 +19,7 @@ jobs:
     - run: node --version
     - run: npm --version
 #     - run: npm install
+    - run: npm install --save-dev --save-exact prettier
     - run: npm run lint
     - run: npm ci
     - run: npm run build
