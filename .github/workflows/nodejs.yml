@@ -19,6 +19,7 @@ jobs:
     - run: node --version
     - run: npm --version
 #     - run: npm install
+    - run: npm run lint
     - run: npm ci
     - run: npm run build
 
