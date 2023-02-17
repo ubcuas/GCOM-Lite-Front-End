@@ -1,12 +1,11 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/uaslogo.png';
-	
 </script>
 
 <header>
 	<div class="corner">
-		<a href= "https://www.ubcuas.com/">
+		<a href="https://www.ubcuas.com/">
 			<img src={logo} alt="UAS Website" />
 		</a>
 	</div>
@@ -22,14 +21,11 @@
 			<li class:active={$page.url.pathname === '/map'}>
 				<a href="/map">Map</a>
 			</li>
-			
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav>
-
-	
 </header>
 
 <style>

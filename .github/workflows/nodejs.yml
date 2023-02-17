@@ -5,23 +5,21 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ['master']
   pull_request:
-    branches: [ "master" ]
+    branches: ['master']
   merge_group:
-    branches: [ "master" ]
+    branches: ['master']
 
 jobs:
   build:
     runs-on: ubuntu-latest
     container: node:16
-    
+
     steps:
-    - uses: actions/checkout@v3
-    - run: node --version
-    
-    - run: npm ci
-    - run: npm run lint
-    - run: npm run build
+      - uses: actions/checkout@v3
+      - run: node --version
 
-
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
