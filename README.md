@@ -1,4 +1,5 @@
 ## Getting Started
+
 This project uses node v18.7.0 (npm v8.15.0) + SvelteKit.
 
 ## Developing
