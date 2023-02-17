@@ -3,15 +3,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: 'weekly'
+      interval: "weekly"
     labels:
-      - 'Priority: Medium'
-      - 'Status: Review Needed'
-      - 'Type: Dependency'
+      - "Priority: Medium"
+      - "Status: Review Needed"
+      - "Type: Dependency"
     open-pull-requests-limit: 10
     reviewers:
-      - 'ubcuas/software-leads'
-      - 'ubcuas/gcom-front-end'
+      - "ubcuas/software-leads"
+      - "ubcuas/gcom-front-end"

@@ -1,14 +1,18 @@
+
 <script>
 	import Header from '../Header.svelte';
 	import './styles.css';
 </script>
 
+
+
 <div class="app">
 	<Header />
-
+	
 	<main>
 		<slot />
 	</main>
+	
 </div>
 
 <style>
@@ -29,4 +33,5 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+
 </style>
