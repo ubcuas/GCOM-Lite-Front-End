@@ -4,7 +4,7 @@
             <div class="AEAC">
                 <div class="card-body">
                     <a href="./AEAC">
-                        <button class="btn"> AEAC </button>
+                        <button class="btn" id="AEAC"> AEAC </button>
                     </a>
                 </div>
             </div>
@@ -14,7 +14,7 @@
             <div class="SUAS">
                 <div class="card-body">
                     <a href="./SUAS">
-                        <button class="btn"> SUAS </button>
+                        <button class="btn" id="SUAS"> SUAS </button>
                     </a>
                 </div>
             </div>

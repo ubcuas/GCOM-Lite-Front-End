@@ -48,15 +48,9 @@
 
         const waypoints = [
             {
-                name: 'Gamma',
-                longitude: 49.2406,
-                latitude: -123.206,
-                altitude: 50.7
-            },
-            {
                 name: 'Alpha',
                 longitude: 49.2606,
-                latitude: -123.236,
+                latitude: -123.246,
                 altitude: 50.7
             },
             {
@@ -80,12 +74,13 @@
         ];
 
         //for the drones position on the map
+
         let mockdata = {
-            velocity: 10,
+            velocity: 22.2,
             longitude: 49.2606,
-            latitude: -123.246,
-            altitude: 30.2111,
-            heading: 270
+            latitude: -123.248,
+            altitude: 28.1111,
+            heading: 11.2
         };
 
         let velocity = mockdata.velocity;
@@ -111,23 +106,12 @@
 
         // zoom the map to the polyline
         map.fitBounds(polyline.getBounds());
-        if (velocity > 0) {
-            //displaying the position of the drone on the map
-            //wings rotating
-            var greenIcon = L.icon({
-                iconUrl:
-                    'https://images.prismic.io/xometry-marketing/c4821070-0b5d-4957-b4ad-f80d86a95665_drone-big.gif?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=15%2C0%2C1218%2C1218&w=492&h=492',
-                iconSize: [50, 55] // size of the icon
-            });
-        } else {
-            //displaying the position of the drone on the map
-            //static
-            var greenIcon = L.icon({
-                iconUrl:
-                    'https://www.nicepng.com/png/full/34-340773_jojo-friendly-drone-top-view-black-rotorcraft.png',
-                iconSize: [45, 50] // size of the icon
-            });
-        }
+
+        //displaying the position of the drone on the map
+        var greenIcon = L.icon({
+            iconUrl: 'https://www.pngall.com/wp-content/uploads/4/Drone-PNG-Free-Download.png',
+            iconSize: [40, 50] // size of the icon
+        });
 
         L.marker([longitude, latitude], { icon: greenIcon }).addTo(map);
 
@@ -141,7 +125,7 @@
         polylinePoints2.push([longitude, latitude]);
         polylinePoints2.push([heading_longitude, heading_latitude]);
 
-        var polyline2 = L.polyline(polylinePoints2, { color: '#ff6961' }).addTo(map);
+        var polyline2 = L.polyline(polylinePoints2, { color: '#E60026' }).addTo(map);
 
         //placing arrows in with the waypoint lines (from stackoverflow)
 
@@ -180,9 +164,7 @@
                                 c / (arrowCount + 1),
                                 mapObj
                             ),
-                            {
-                                icon: icon
-                            }
+                            { icon: icon }
                         )
                     );
                 }

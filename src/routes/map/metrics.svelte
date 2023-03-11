@@ -1,11 +1,11 @@
 <!---------------->
 <script>
     let mockdata = {
-        velocity: 10,
+        velocity: 22.2,
         longitude: 49.2606,
         latitude: -123.246,
-        altitude: 30.2111,
-        heading: 270
+        altitude: 28.1111,
+        heading: 11.2
     };
 
     let velocity = mockdata.velocity;

@@ -54,37 +54,15 @@
         <li class="nav-item">
             <a class="nav-link" href="#5">Simulation</a>
         </li>
-
         <li class="nav-item right">
             <div class="dropdown">
                 <button
-                    class="btn dropdown-toggle"
+                    class="btn btn-secondary dropdown-toggle"
                     type="button"
                     id="triggerId"
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style="background-color: #BECAD3;"
-                >
-                    Controls
-                </button>
-                <div class="dropdown-menu" aria-labelledby="triggerId">
-                    <a class="dropdown-item" href="#6">Lock</a>
-                    <a class="dropdown-item" href="#7">Unlock</a>
-                </div>
-            </div>
-        </li>
-
-        <li class="nav-item">
-            <div class="dropdown">
-                <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    id="triggerId"
-                    data-bs-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    style="background-color: #BECAD3;"
                 >
                     Connect
                 </button>
@@ -115,7 +93,7 @@
     }
 
     .right {
-        margin-left: auto;
+        margin: 0 1em 0 auto;
     }
 
     #linklogo {
