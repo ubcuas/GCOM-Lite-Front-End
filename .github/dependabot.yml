@@ -1,20 +1,21 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-version: 2
-updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "03:00"
-      timezone: "America/Vancouver"
-    labels:
-      - "Priority: Medium"
-      - "Status: Review Needed"
-      - "Type: Dependency"
-    open-pull-requests-limit: 10
-    reviewers:
-      - "ubcuas/software-leads"
-      - "ubcuas/gcom-front-end"
+#version: 2
+#updates:
+#  - package-ecosystem: "npm"
+#    directory: "/"
+#    schedule:
+#      interval: "weekly"
+#      day: "saturday"
+#      time: "03:00"
+#      timezone: "America/Vancouver"
+#    labels:
+#      - "Priority: Medium"
+#      - "Status: Review Needed"
+#      - "Type: Dependency"
+#    open-pull-requests-limit: 10
+#    reviewers:
+#      - "ubcuas/software-leads"
+#      - "ubcuas/gcom-front-end"
+#
